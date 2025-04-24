@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page-container {
+  padding: 24px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.action-button {
+  margin: 8px;
+}
+
+.map-container {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.device-info {
+  margin-bottom: 16px;
+}
+
+.feature-list {
+  margin-top: 16px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-field {
+  margin-bottom: 16px;
+}
+
+.form-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alert-message {
+  margin-bottom: 16px;
+}

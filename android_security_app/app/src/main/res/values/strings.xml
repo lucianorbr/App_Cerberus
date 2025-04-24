@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecureGuard</string>
+    <string name="device_admin_label">SecureGuard Device Admin</string>
+    <string name="device_admin_description">Permite que o aplicativo controle funções de segurança do dispositivo</string>
+    <string name="login">Entrar</string>
+    <string name="register">Registrar</string>
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="confirm_password">Confirmar Senha</string>
+    <string name="settings">Configurações</string>
+    <string name="location_tracking">Rastreamento de Localização</string>
+    <string name="wrong_password_photo">Foto em Senha Incorreta</string>
+    <string name="sim_change_detection">Detecção de Troca de SIM</string>
+    <string name="remote_lock">Bloqueio Remoto</string>
+    <string name="sound_alert">Alerta Sonoro</string>
+    <string name="call_control">Controle de Ligações</string>
+    <string name="email_notifications">Notificações por E-mail</string>
+    <string name="notification_email">E-mail para Notificações</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="device_admin_required">Administrador de Dispositivo Necessário</string>
+    <string name="device_admin_explanation">O SecureGuard precisa de permissões de administrador de dispositivo para funcionar corretamente. Isso permite que o aplicativo bloqueie o dispositivo remotamente e monitore tentativas de senha incorreta.</string>
+    <string name="enable">Habilitar</string>
+    <string name="location_permission_required">Permissão de Localização Necessária</string>
+    <string name="location_permission_explanation">O SecureGuard precisa de acesso à sua localização para rastrear o dispositivo em caso de perda ou roubo.</string>
+    <string name="camera_permission_required">Permissão de Câmera Necessária</string>
+    <string name="camera_permission_explanation">O SecureGuard precisa de acesso à câmera para tirar fotos quando a senha for digitada incorretamente.</string>
+    <string name="phone_permission_required">Permissão de Telefone Necessária</string>
+    <string name="phone_permission_explanation">O SecureGuard precisa de acesso ao estado do telefone para detectar mudanças no SIM card.</string>
+</resources>
